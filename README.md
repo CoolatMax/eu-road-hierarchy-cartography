@@ -59,12 +59,14 @@ The workflow focuses on cartographic design principles: rule-based multi-tier li
 ```text
 ├── README.md
 ├── exports/
-│   └── brussels_road_hierarchy_A3.pdf
+│   └── example.pdf
 ├── styles/
-│   ├── road_hierarchy_rules.qml
-│   └── road_labels_curved.qml
+│   ├── example1.qml
+│   └── example2.qml
 ├── data/
+│   └── raw/
+│       └── example.gpkg
 │   └── processed/
-│       └── brussels_infrastructure.gpkg
+│       └── example.gpkg
 └── qgis/
-    └── brussels_road_cartography.qgz
+    └── example.qgz
